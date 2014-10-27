@@ -21,6 +21,7 @@
 		CA0BE18B19FE723700EA219F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0BE16D19FE723700EA219F /* UIKit.framework */; };
 		CA0BE19319FE723700EA219F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA0BE19119FE723700EA219F /* InfoPlist.strings */; };
 		CA0BE19519FE723700EA219F /* Drawing_a_HouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0BE19419FE723700EA219F /* Drawing_a_HouseTests.m */; };
+		CAA61FD819FE734B00C95379 /* SSDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA61FD719FE734B00C95379 /* SSDrawingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		CA0BE19019FE723700EA219F /* Drawing a HouseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Drawing a HouseTests-Info.plist"; sourceTree = "<group>"; };
 		CA0BE19219FE723700EA219F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CA0BE19419FE723700EA219F /* Drawing_a_HouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drawing_a_HouseTests.m; sourceTree = "<group>"; };
+		CAA61FD619FE734B00C95379 /* SSDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDrawingView.h; sourceTree = "<group>"; };
+		CAA61FD719FE734B00C95379 /* SSDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDrawingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				CA0BE17819FE723700EA219F /* SSAppDelegate.h */,
 				CA0BE17919FE723700EA219F /* SSAppDelegate.m */,
 				CA0BE17B19FE723700EA219F /* Main.storyboard */,
+				CAA61FD619FE734B00C95379 /* SSDrawingView.h */,
+				CAA61FD719FE734B00C95379 /* SSDrawingView.m */,
 				CA0BE17E19FE723700EA219F /* SSViewController.h */,
 				CA0BE17F19FE723700EA219F /* SSViewController.m */,
 				CA0BE18119FE723700EA219F /* Images.xcassets */,
@@ -253,6 +258,7 @@
 				CA0BE18019FE723700EA219F /* SSViewController.m in Sources */,
 				CA0BE17A19FE723700EA219F /* SSAppDelegate.m in Sources */,
 				CA0BE17619FE723700EA219F /* main.m in Sources */,
+				CAA61FD819FE734B00C95379 /* SSDrawingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +463,7 @@
 				CA0BE19A19FE723700EA219F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA0BE19B19FE723700EA219F /* Build configuration list for PBXNativeTarget "Drawing a HouseTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				CA0BE19D19FE723700EA219F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
