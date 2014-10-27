@@ -35,6 +35,12 @@
 //    The roof - triangle
     [bezierPath addLineToPoint:CGPointMake(5/10.0 * self.bounds.size.width, 0.5/3.0 * self.bounds.size.height)];
     [bezierPath addLineToPoint:CGPointMake(9/10.0 * self.bounds.size.width, 1/3.0 * self.bounds.size.height)];
+    
+//    The door
+    [bezierPath moveToPoint:CGPointMake(2/10.0 * self.bounds.size.width, 2/3.0 * self.bounds.size.height)];
+    [bezierPath addLineToPoint:CGPointMake(2/10.0 * self.bounds.size.width, 1.3/3.0 * self.bounds.size.height)];
+    [bezierPath addLineToPoint:CGPointMake(4/10.0 * self.bounds.size.width, 1.3/3.0 * self.bounds.size.height)];
+    [bezierPath addLineToPoint:CGPointMake(4/10.0 * self.bounds.size.width, 2/3.0 * self.bounds.size.height)];
 
     [bezierPath stroke];
 }
