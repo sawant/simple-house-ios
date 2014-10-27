@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA0BE16A19FE723700EA219F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0BE16919FE723700EA219F /* Foundation.framework */; };
+		CA0BE16C19FE723700EA219F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0BE16B19FE723700EA219F /* CoreGraphics.framework */; };
+		CA0BE16E19FE723700EA219F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0BE16D19FE723700EA219F /* UIKit.framework */; };
+		CA0BE17419FE723700EA219F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA0BE17219FE723700EA219F /* InfoPlist.strings */; };
+		CA0BE17619FE723700EA219F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0BE17519FE723700EA219F /* main.m */; };
+		CA0BE17A19FE723700EA219F /* SSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0BE17919FE723700EA219F /* SSAppDelegate.m */; };
+		CA0BE17D19FE723700EA219F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0BE17B19FE723700EA219F /* Main.storyboard */; };
+		CA0BE18019FE723700EA219F /* SSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0BE17F19FE723700EA219F /* SSViewController.m */; };
+		CA0BE18219FE723700EA219F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA0BE18119FE723700EA219F /* Images.xcassets */; };
+		CA0BE18919FE723700EA219F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0BE18819FE723700EA219F /* XCTest.framework */; };
+		CA0BE18A19FE723700EA219F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0BE16919FE723700EA219F /* Foundation.framework */; };
+		CA0BE18B19FE723700EA219F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0BE16D19FE723700EA219F /* UIKit.framework */; };
+		CA0BE19319FE723700EA219F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA0BE19119FE723700EA219F /* InfoPlist.strings */; };
+		CA0BE19519FE723700EA219F /* Drawing_a_HouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0BE19419FE723700EA219F /* Drawing_a_HouseTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA0BE18C19FE723700EA219F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA0BE15E19FE723700EA219F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA0BE16519FE723700EA219F;
+			remoteInfo = "Drawing a House";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA0BE16619FE723700EA219F /* Drawing a House.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drawing a House.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0BE16919FE723700EA219F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA0BE16B19FE723700EA219F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CA0BE16D19FE723700EA219F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CA0BE17119FE723700EA219F /* Drawing a House-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Drawing a House-Info.plist"; sourceTree = "<group>"; };
+		CA0BE17319FE723700EA219F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA0BE17519FE723700EA219F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA0BE17719FE723700EA219F /* Drawing a House-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Drawing a House-Prefix.pch"; sourceTree = "<group>"; };
+		CA0BE17819FE723700EA219F /* SSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSAppDelegate.h; sourceTree = "<group>"; };
+		CA0BE17919FE723700EA219F /* SSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSAppDelegate.m; sourceTree = "<group>"; };
+		CA0BE17C19FE723700EA219F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA0BE17E19FE723700EA219F /* SSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSViewController.h; sourceTree = "<group>"; };
+		CA0BE17F19FE723700EA219F /* SSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSViewController.m; sourceTree = "<group>"; };
+		CA0BE18119FE723700EA219F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CA0BE18719FE723700EA219F /* Drawing a HouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drawing a HouseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0BE18819FE723700EA219F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CA0BE19019FE723700EA219F /* Drawing a HouseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Drawing a HouseTests-Info.plist"; sourceTree = "<group>"; };
+		CA0BE19219FE723700EA219F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA0BE19419FE723700EA219F /* Drawing_a_HouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drawing_a_HouseTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA0BE16319FE723700EA219F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0BE16C19FE723700EA219F /* CoreGraphics.framework in Frameworks */,
+				CA0BE16E19FE723700EA219F /* UIKit.framework in Frameworks */,
+				CA0BE16A19FE723700EA219F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0BE18419FE723700EA219F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0BE18919FE723700EA219F /* XCTest.framework in Frameworks */,
+				CA0BE18B19FE723700EA219F /* UIKit.framework in Frameworks */,
+				CA0BE18A19FE723700EA219F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA0BE15D19FE723700EA219F = {
+			isa = PBXGroup;
+			children = (
+				CA0BE16F19FE723700EA219F /* Drawing a House */,
+				CA0BE18E19FE723700EA219F /* Drawing a HouseTests */,
+				CA0BE16819FE723700EA219F /* Frameworks */,
+				CA0BE16719FE723700EA219F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA0BE16719FE723700EA219F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA0BE16619FE723700EA219F /* Drawing a House.app */,
+				CA0BE18719FE723700EA219F /* Drawing a HouseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA0BE16819FE723700EA219F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA0BE16919FE723700EA219F /* Foundation.framework */,
+				CA0BE16B19FE723700EA219F /* CoreGraphics.framework */,
+				CA0BE16D19FE723700EA219F /* UIKit.framework */,
+				CA0BE18819FE723700EA219F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA0BE16F19FE723700EA219F /* Drawing a House */ = {
+			isa = PBXGroup;
+			children = (
+				CA0BE17819FE723700EA219F /* SSAppDelegate.h */,
+				CA0BE17919FE723700EA219F /* SSAppDelegate.m */,
+				CA0BE17B19FE723700EA219F /* Main.storyboard */,
+				CA0BE17E19FE723700EA219F /* SSViewController.h */,
+				CA0BE17F19FE723700EA219F /* SSViewController.m */,
+				CA0BE18119FE723700EA219F /* Images.xcassets */,
+				CA0BE17019FE723700EA219F /* Supporting Files */,
+			);
+			path = "Drawing a House";
+			sourceTree = "<group>";
+		};
+		CA0BE17019FE723700EA219F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA0BE17119FE723700EA219F /* Drawing a House-Info.plist */,
+				CA0BE17219FE723700EA219F /* InfoPlist.strings */,
+				CA0BE17519FE723700EA219F /* main.m */,
+				CA0BE17719FE723700EA219F /* Drawing a House-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA0BE18E19FE723700EA219F /* Drawing a HouseTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA0BE19419FE723700EA219F /* Drawing_a_HouseTests.m */,
+				CA0BE18F19FE723700EA219F /* Supporting Files */,
+			);
+			path = "Drawing a HouseTests";
+			sourceTree = "<group>";
+		};
+		CA0BE18F19FE723700EA219F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA0BE19019FE723700EA219F /* Drawing a HouseTests-Info.plist */,
+				CA0BE19119FE723700EA219F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA0BE16519FE723700EA219F /* Drawing a House */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA0BE19819FE723700EA219F /* Build configuration list for PBXNativeTarget "Drawing a House" */;
+			buildPhases = (
+				CA0BE16219FE723700EA219F /* Sources */,
+				CA0BE16319FE723700EA219F /* Frameworks */,
+				CA0BE16419FE723700EA219F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Drawing a House";
+			productName = "Drawing a House";
+			productReference = CA0BE16619FE723700EA219F /* Drawing a House.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA0BE18619FE723700EA219F /* Drawing a HouseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA0BE19B19FE723700EA219F /* Build configuration list for PBXNativeTarget "Drawing a HouseTests" */;
+			buildPhases = (
+				CA0BE18319FE723700EA219F /* Sources */,
+				CA0BE18419FE723700EA219F /* Frameworks */,
+				CA0BE18519FE723700EA219F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA0BE18D19FE723700EA219F /* PBXTargetDependency */,
+			);
+			name = "Drawing a HouseTests";
+			productName = "Drawing a HouseTests";
+			productReference = CA0BE18719FE723700EA219F /* Drawing a HouseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA0BE15E19FE723700EA219F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Sawant Shah";
+				TargetAttributes = {
+					CA0BE18619FE723700EA219F = {
+						TestTargetID = CA0BE16519FE723700EA219F;
+					};
+				};
+			};
+			buildConfigurationList = CA0BE16119FE723700EA219F /* Build configuration list for PBXProject "Drawing a House" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA0BE15D19FE723700EA219F;
+			productRefGroup = CA0BE16719FE723700EA219F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA0BE16519FE723700EA219F /* Drawing a House */,
+				CA0BE18619FE723700EA219F /* Drawing a HouseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA0BE16419FE723700EA219F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0BE18219FE723700EA219F /* Images.xcassets in Resources */,
+				CA0BE17419FE723700EA219F /* InfoPlist.strings in Resources */,
+				CA0BE17D19FE723700EA219F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0BE18519FE723700EA219F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0BE19319FE723700EA219F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA0BE16219FE723700EA219F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0BE18019FE723700EA219F /* SSViewController.m in Sources */,
+				CA0BE17A19FE723700EA219F /* SSAppDelegate.m in Sources */,
+				CA0BE17619FE723700EA219F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0BE18319FE723700EA219F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0BE19519FE723700EA219F /* Drawing_a_HouseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA0BE18D19FE723700EA219F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA0BE16519FE723700EA219F /* Drawing a House */;
+			targetProxy = CA0BE18C19FE723700EA219F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA0BE17219FE723700EA219F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA0BE17319FE723700EA219F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CA0BE17B19FE723700EA219F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA0BE17C19FE723700EA219F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA0BE19119FE723700EA219F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA0BE19219FE723700EA219F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA0BE19619FE723700EA219F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA0BE19719FE723700EA219F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA0BE19919FE723700EA219F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drawing a House/Drawing a House-Prefix.pch";
+				INFOPLIST_FILE = "Drawing a House/Drawing a House-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA0BE19A19FE723700EA219F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drawing a House/Drawing a House-Prefix.pch";
+				INFOPLIST_FILE = "Drawing a House/Drawing a House-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CA0BE19C19FE723700EA219F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Drawing a House.app/Drawing a House";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drawing a House/Drawing a House-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Drawing a HouseTests/Drawing a HouseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CA0BE19D19FE723700EA219F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Drawing a House.app/Drawing a House";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drawing a House/Drawing a House-Prefix.pch";
+				INFOPLIST_FILE = "Drawing a HouseTests/Drawing a HouseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA0BE16119FE723700EA219F /* Build configuration list for PBXProject "Drawing a House" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0BE19619FE723700EA219F /* Debug */,
+				CA0BE19719FE723700EA219F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA0BE19819FE723700EA219F /* Build configuration list for PBXNativeTarget "Drawing a House" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0BE19919FE723700EA219F /* Debug */,
+				CA0BE19A19FE723700EA219F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA0BE19B19FE723700EA219F /* Build configuration list for PBXNativeTarget "Drawing a HouseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0BE19C19FE723700EA219F /* Debug */,
+				CA0BE19D19FE723700EA219F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA0BE15E19FE723700EA219F /* Project object */;
+}
