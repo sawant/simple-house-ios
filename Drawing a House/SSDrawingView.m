@@ -21,28 +21,79 @@
 
 - (void)drawRect:(CGRect)rect
 {
-    UIBezierPath *bezierPath = [UIBezierPath bezierPath];
+    //    Main structure of house - square
+    UIBezierPath *housePath = [UIBezierPath bezierPath];
+    housePath.lineWidth = 2.0;
     
-    bezierPath.lineWidth = 2.0;
-
-//    Main structure of house - square
-    [bezierPath moveToPoint:CGPointMake(1/10.0 * self.bounds.size.width, 1/3.0 * self.bounds.size.height)];
-    [bezierPath addLineToPoint:CGPointMake(9/10.0 * self.bounds.size.width, 1/3.0 * self.bounds.size.height)];
-    [bezierPath addLineToPoint:CGPointMake(9/10.0 * self.bounds.size.width, 2/3.0 * self.bounds.size.height)];
-    [bezierPath addLineToPoint:CGPointMake(1/10.0 * self.bounds.size.width, 2/3.0 * self.bounds.size.height)];
-    [bezierPath addLineToPoint:CGPointMake(1/10.0 * self.bounds.size.width, 1/3.0 * self.bounds.size.height)];
-
-//    The roof - triangle
-    [bezierPath addLineToPoint:CGPointMake(5/10.0 * self.bounds.size.width, 0.5/3.0 * self.bounds.size.height)];
-    [bezierPath addLineToPoint:CGPointMake(9/10.0 * self.bounds.size.width, 1/3.0 * self.bounds.size.height)];
+    [housePath moveToPoint:CGPointMake(1/10.0 * self.bounds.size.width, 3/9.0 * self.bounds.size.height)];
+    [housePath addLineToPoint:CGPointMake(9/10.0 * self.bounds.size.width, 3/9.0 * self.bounds.size.height)];
+    [housePath addLineToPoint:CGPointMake(9/10.0 * self.bounds.size.width, 6/9.0 * self.bounds.size.height)];
+    [housePath addLineToPoint:CGPointMake(1/10.0 * self.bounds.size.width, 6/9.0 * self.bounds.size.height)];
+    [housePath closePath];
     
-//    The door
-    [bezierPath moveToPoint:CGPointMake(2/10.0 * self.bounds.size.width, 2/3.0 * self.bounds.size.height)];
-    [bezierPath addLineToPoint:CGPointMake(2/10.0 * self.bounds.size.width, 1.3/3.0 * self.bounds.size.height)];
-    [bezierPath addLineToPoint:CGPointMake(4/10.0 * self.bounds.size.width, 1.3/3.0 * self.bounds.size.height)];
-    [bezierPath addLineToPoint:CGPointMake(4/10.0 * self.bounds.size.width, 2/3.0 * self.bounds.size.height)];
-
-    [bezierPath stroke];
+    [[UIColor brownColor] setFill];
+    [housePath fill];
+    [housePath stroke];
+    
+    //    The roof - triangle
+    UIBezierPath *roofPath = [UIBezierPath bezierPath];
+    roofPath.lineWidth = 2.0;
+    
+    [roofPath moveToPoint:CGPointMake(1/10.0 * self.bounds.size.width, 3/9.0 * self.bounds.size.height)];
+    [roofPath addLineToPoint:CGPointMake(5/10.0 * self.bounds.size.width, 1.5/9.0 * self.bounds.size.height)];
+    [roofPath addLineToPoint:CGPointMake(9/10.0 * self.bounds.size.width, 3/9.0 * self.bounds.size.height)];
+    [roofPath closePath];
+    
+    [[UIColor redColor] setFill];
+    [roofPath fill];
+    [roofPath stroke];
+    
+    //    The door
+    UIBezierPath *doorPath = [UIBezierPath bezierPath];
+    doorPath.lineWidth = 2.0;
+    
+    [doorPath moveToPoint:CGPointMake(2/10.0 * self.bounds.size.width, 6/9.0 * self.bounds.size.height)];
+    [doorPath addLineToPoint:CGPointMake(2/10.0 * self.bounds.size.width, 3.9/9.0 * self.bounds.size.height)];
+    [doorPath addLineToPoint:CGPointMake(4/10.0 * self.bounds.size.width, 3.9/9.0 * self.bounds.size.height)];
+    [doorPath addLineToPoint:CGPointMake(4/10.0 * self.bounds.size.width, 6/9.0 * self.bounds.size.height)];
+    [doorPath closePath];
+    
+    [[UIColor grayColor] setFill];
+    [doorPath fill];
+    [doorPath stroke];
+    
+    //    The window
+    UIBezierPath *windowPath = [UIBezierPath bezierPath];
+    windowPath.lineWidth = 2.0;
+    
+    [windowPath moveToPoint:CGPointMake(6/10.0 * self.bounds.size.width, 3.9/9.0 * self.bounds.size.height)];
+    [windowPath addLineToPoint:CGPointMake(8/10.0 * self.bounds.size.width, 3.9/9.0 * self.bounds.size.height)];
+    [windowPath addLineToPoint:CGPointMake(8/10.0 * self.bounds.size.width, 4.8/9.0 * self.bounds.size.height)];
+    [windowPath addLineToPoint:CGPointMake(6/10.0 * self.bounds.size.width, 4.8/9.0 * self.bounds.size.height)];
+    [windowPath closePath];
+    // Window Panes
+    [windowPath moveToPoint:CGPointMake(7/10.0 * self.bounds.size.width, 3.9/9.0 * self.bounds.size.height)];
+    [windowPath addLineToPoint:CGPointMake(7/10.0 * self.bounds.size.width, 4.8/9.0 * self.bounds.size.height)];
+    [windowPath moveToPoint:CGPointMake(6/10.0 * self.bounds.size.width, 4.35/9.0 * self.bounds.size.height)];
+    [windowPath addLineToPoint:CGPointMake(8/10.0 * self.bounds.size.width, 4.35/9.0 * self.bounds.size.height)];
+    
+    [[UIColor whiteColor] setFill];
+    [windowPath fill];
+    [windowPath stroke];
+    
+    //    The chimney
+    UIBezierPath *chimneyPath = [UIBezierPath bezierPath];
+    chimneyPath.lineWidth = 2.0;
+    
+    [chimneyPath moveToPoint:CGPointMake(6.4/10.0 * self.bounds.size.width, 1.8/9.0 * self.bounds.size.height)];
+    [chimneyPath addLineToPoint:CGPointMake(7.4/10.0 * self.bounds.size.width, 1.8/9.0 * self.bounds.size.height)];
+    [chimneyPath addLineToPoint:CGPointMake(7.4/10.0 * self.bounds.size.width, 2.4/9.0 * self.bounds.size.height)];
+    [chimneyPath addLineToPoint:CGPointMake(6.4/10.0 * self.bounds.size.width, 2.4/9.0 * self.bounds.size.height)];
+    [chimneyPath closePath];
+    
+    [[UIColor blackColor] setFill];
+    [chimneyPath fill];
+    [chimneyPath stroke];
 }
 
 @end
