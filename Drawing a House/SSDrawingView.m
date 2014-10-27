@@ -94,6 +94,15 @@
     [[UIColor blackColor] setFill];
     [chimneyPath fill];
     [chimneyPath stroke];
+    
+    //    Door knob
+    UIBezierPath *doorKnobPath = [UIBezierPath bezierPath];
+    doorKnobPath.lineWidth = 2.0;
+    
+    [doorKnobPath addArcWithCenter:CGPointMake(2.3/10.0 * self.bounds.size.width, 5.04/9.0 * self.bounds.size.height) radius:4.0 startAngle:0.0 endAngle:360.0 clockwise:YES];
+    [[UIColor blueColor] setFill];
+    [doorKnobPath fill];
+    [doorKnobPath stroke];
 }
 
 @end
